@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PCM2ALaw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB99.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/PCM2ALaw.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\PCM2ALaw\g711.c"
+"E:\codes\PCM2ALaw\main.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB99.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB9A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/PCM2ALaw.pdb" /debug /machine:I386 /out:"Debug/PCM2ALaw.exe" /pdbtype:sept 
+.\Debug\g711.obj
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB9A.tmp"
+<h3>Output Window</h3>
+Compiling...
+g711.c
+main.c
+E:\codes\PCM2ALaw\main.c(13) : warning C4103: 'E:\codes\PCM2ALaw\main.c' : used #pragma pack to change alignment
+E:\codes\PCM2ALaw\main.c(37) : warning C4013: 'exit' undefined; assuming extern returning int
+Linking...
+
+
+
+<h3>Results</h3>
+PCM2ALaw.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
